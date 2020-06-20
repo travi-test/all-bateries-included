@@ -14,3 +14,4 @@ branches:
         # Required. The list of status checks to require in order to merge into this branch
         contexts: ["test"]
       enforce_admins: true
+      restrictions: null

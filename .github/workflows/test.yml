@@ -1,0 +1,15 @@
+name: Test
+"on":
+  push:
+    branches:
+      - master
+  pull_request:
+    types:
+      - opened
+      - synchronize
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      # just a dummy
+      - run: exit 0
